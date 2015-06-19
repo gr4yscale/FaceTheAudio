@@ -21,6 +21,18 @@
 		2977F40C1B332CE000735A7E /* Utilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2977F3FE1B332CE000735A7E /* Utilities.cpp */; };
 		2977F40D1B332CE000735A7E /* Wrappers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2977F3FF1B332CE000735A7E /* Wrappers.cpp */; };
 		2977F40E1B332CE000735A7E /* opencv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2977F4001B332CE000735A7E /* opencv.a */; };
+		29F2A0EF1B342A7200EB0247 /* Expression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29F2A0CC1B342A7100EB0247 /* Expression.cpp */; };
+		29F2A0F01B342A7200EB0247 /* ExpressionClassifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29F2A0CE1B342A7100EB0247 /* ExpressionClassifier.cpp */; };
+		29F2A0F11B342A7200EB0247 /* ofxFaceTracker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29F2A0D01B342A7100EB0247 /* ofxFaceTracker.cpp */; };
+		29F2A0F21B342A7200EB0247 /* license.md in Sources */ = {isa = PBXBuildFile; fileRef = 29F2A0DF1B342A7200EB0247 /* license.md */; };
+		29F2A0F31B342A7200EB0247 /* CLM.cc in Sources */ = {isa = PBXBuildFile; fileRef = 29F2A0E71B342A7200EB0247 /* CLM.cc */; };
+		29F2A0F41B342A7200EB0247 /* FCheck.cc in Sources */ = {isa = PBXBuildFile; fileRef = 29F2A0E81B342A7200EB0247 /* FCheck.cc */; };
+		29F2A0F51B342A7200EB0247 /* FDet.cc in Sources */ = {isa = PBXBuildFile; fileRef = 29F2A0E91B342A7200EB0247 /* FDet.cc */; };
+		29F2A0F61B342A7200EB0247 /* IO.cc in Sources */ = {isa = PBXBuildFile; fileRef = 29F2A0EA1B342A7200EB0247 /* IO.cc */; };
+		29F2A0F71B342A7200EB0247 /* Patch.cc in Sources */ = {isa = PBXBuildFile; fileRef = 29F2A0EB1B342A7200EB0247 /* Patch.cc */; };
+		29F2A0F81B342A7200EB0247 /* PAW.cc in Sources */ = {isa = PBXBuildFile; fileRef = 29F2A0EC1B342A7200EB0247 /* PAW.cc */; };
+		29F2A0F91B342A7200EB0247 /* PDM.cc in Sources */ = {isa = PBXBuildFile; fileRef = 29F2A0ED1B342A7200EB0247 /* PDM.cc */; };
+		29F2A0FA1B342A7200EB0247 /* Tracker.cc in Sources */ = {isa = PBXBuildFile; fileRef = 29F2A0EE1B342A7200EB0247 /* Tracker.cc */; };
 		BBAB23CB13894F3D00AA2426 /* GLUT.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BBAB23BE13894E4700AA2426 /* GLUT.framework */; };
 		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
 		E45BE97B0E8CC7DD009D7055 /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9710E8CC7DD009D7055 /* AGL.framework */; };
@@ -104,6 +116,34 @@
 		2977F3FE1B332CE000735A7E /* Utilities.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Utilities.cpp; sourceTree = "<group>"; };
 		2977F3FF1B332CE000735A7E /* Wrappers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Wrappers.cpp; sourceTree = "<group>"; };
 		2977F4001B332CE000735A7E /* opencv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = opencv.a; path = ../../../addons/ofxCv/../ofxOpenCv/libs/opencv/lib/osx/opencv.a; sourceTree = "<group>"; };
+		29F2A0CC1B342A7100EB0247 /* Expression.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Expression.cpp; sourceTree = "<group>"; };
+		29F2A0CD1B342A7100EB0247 /* Expression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Expression.h; sourceTree = "<group>"; };
+		29F2A0CE1B342A7100EB0247 /* ExpressionClassifier.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ExpressionClassifier.cpp; sourceTree = "<group>"; };
+		29F2A0CF1B342A7100EB0247 /* ExpressionClassifier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExpressionClassifier.h; sourceTree = "<group>"; };
+		29F2A0D01B342A7100EB0247 /* ofxFaceTracker.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxFaceTracker.cpp; sourceTree = "<group>"; };
+		29F2A0D11B342A7100EB0247 /* ofxFaceTracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxFaceTracker.h; sourceTree = "<group>"; };
+		29F2A0D21B342A7100EB0247 /* ofxFaceTrackerThreaded.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxFaceTrackerThreaded.h; sourceTree = "<group>"; };
+		29F2A0D71B342A7200EB0247 /* CLM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLM.h; sourceTree = "<group>"; };
+		29F2A0D81B342A7200EB0247 /* FCheck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCheck.h; sourceTree = "<group>"; };
+		29F2A0D91B342A7200EB0247 /* FDet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDet.h; sourceTree = "<group>"; };
+		29F2A0DA1B342A7200EB0247 /* IO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IO.h; sourceTree = "<group>"; };
+		29F2A0DB1B342A7200EB0247 /* Patch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Patch.h; sourceTree = "<group>"; };
+		29F2A0DC1B342A7200EB0247 /* PAW.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PAW.h; sourceTree = "<group>"; };
+		29F2A0DD1B342A7200EB0247 /* PDM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDM.h; sourceTree = "<group>"; };
+		29F2A0DE1B342A7200EB0247 /* Tracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tracker.h; sourceTree = "<group>"; };
+		29F2A0DF1B342A7200EB0247 /* license.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = license.md; sourceTree = "<group>"; };
+		29F2A0E11B342A7200EB0247 /* face.con */ = {isa = PBXFileReference; lastKnownFileType = text; path = face.con; sourceTree = "<group>"; };
+		29F2A0E21B342A7200EB0247 /* face.tracker */ = {isa = PBXFileReference; lastKnownFileType = text; path = face.tracker; sourceTree = "<group>"; };
+		29F2A0E31B342A7200EB0247 /* face.tri */ = {isa = PBXFileReference; lastKnownFileType = text; path = face.tri; sourceTree = "<group>"; };
+		29F2A0E41B342A7200EB0247 /* face2.tracker */ = {isa = PBXFileReference; lastKnownFileType = text; path = face2.tracker; sourceTree = "<group>"; };
+		29F2A0E71B342A7200EB0247 /* CLM.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CLM.cc; sourceTree = "<group>"; };
+		29F2A0E81B342A7200EB0247 /* FCheck.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FCheck.cc; sourceTree = "<group>"; };
+		29F2A0E91B342A7200EB0247 /* FDet.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FDet.cc; sourceTree = "<group>"; };
+		29F2A0EA1B342A7200EB0247 /* IO.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IO.cc; sourceTree = "<group>"; };
+		29F2A0EB1B342A7200EB0247 /* Patch.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Patch.cc; sourceTree = "<group>"; };
+		29F2A0EC1B342A7200EB0247 /* PAW.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PAW.cc; sourceTree = "<group>"; };
+		29F2A0ED1B342A7200EB0247 /* PDM.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PDM.cc; sourceTree = "<group>"; };
+		29F2A0EE1B342A7200EB0247 /* Tracker.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Tracker.cc; sourceTree = "<group>"; };
 		BBAB23BE13894E4700AA2426 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = ../../../libs/glut/lib/osx/GLUT.framework; sourceTree = "<group>"; };
 		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
 		E45BE9710E8CC7DD009D7055 /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = /System/Library/Frameworks/AGL.framework; sourceTree = "<absolute>"; };
@@ -277,10 +317,112 @@
 			path = src;
 			sourceTree = "<group>";
 		};
+		29F2A0CA1B342A7100EB0247 /* ofxFaceTracker */ = {
+			isa = PBXGroup;
+			children = (
+				29F2A0CB1B342A7100EB0247 /* src */,
+				29F2A0D31B342A7200EB0247 /* libs */,
+			);
+			name = ofxFaceTracker;
+			sourceTree = "<group>";
+		};
+		29F2A0CB1B342A7100EB0247 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				29F2A0CC1B342A7100EB0247 /* Expression.cpp */,
+				29F2A0CD1B342A7100EB0247 /* Expression.h */,
+				29F2A0CE1B342A7100EB0247 /* ExpressionClassifier.cpp */,
+				29F2A0CF1B342A7100EB0247 /* ExpressionClassifier.h */,
+				29F2A0D01B342A7100EB0247 /* ofxFaceTracker.cpp */,
+				29F2A0D11B342A7100EB0247 /* ofxFaceTracker.h */,
+				29F2A0D21B342A7100EB0247 /* ofxFaceTrackerThreaded.h */,
+			);
+			name = src;
+			path = ../../../addons/ofxFaceTracker/src;
+			sourceTree = "<group>";
+		};
+		29F2A0D31B342A7200EB0247 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				29F2A0D41B342A7200EB0247 /* FaceTracker */,
+			);
+			name = libs;
+			path = ../../../addons/ofxFaceTracker/libs;
+			sourceTree = "<group>";
+		};
+		29F2A0D41B342A7200EB0247 /* FaceTracker */ = {
+			isa = PBXGroup;
+			children = (
+				29F2A0D51B342A7200EB0247 /* include */,
+				29F2A0DF1B342A7200EB0247 /* license.md */,
+				29F2A0E01B342A7200EB0247 /* model */,
+				29F2A0E51B342A7200EB0247 /* src */,
+			);
+			path = FaceTracker;
+			sourceTree = "<group>";
+		};
+		29F2A0D51B342A7200EB0247 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				29F2A0D61B342A7200EB0247 /* FaceTracker */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		29F2A0D61B342A7200EB0247 /* FaceTracker */ = {
+			isa = PBXGroup;
+			children = (
+				29F2A0D71B342A7200EB0247 /* CLM.h */,
+				29F2A0D81B342A7200EB0247 /* FCheck.h */,
+				29F2A0D91B342A7200EB0247 /* FDet.h */,
+				29F2A0DA1B342A7200EB0247 /* IO.h */,
+				29F2A0DB1B342A7200EB0247 /* Patch.h */,
+				29F2A0DC1B342A7200EB0247 /* PAW.h */,
+				29F2A0DD1B342A7200EB0247 /* PDM.h */,
+				29F2A0DE1B342A7200EB0247 /* Tracker.h */,
+			);
+			path = FaceTracker;
+			sourceTree = "<group>";
+		};
+		29F2A0E01B342A7200EB0247 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				29F2A0E11B342A7200EB0247 /* face.con */,
+				29F2A0E21B342A7200EB0247 /* face.tracker */,
+				29F2A0E31B342A7200EB0247 /* face.tri */,
+				29F2A0E41B342A7200EB0247 /* face2.tracker */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		29F2A0E51B342A7200EB0247 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				29F2A0E61B342A7200EB0247 /* lib */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		29F2A0E61B342A7200EB0247 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				29F2A0E71B342A7200EB0247 /* CLM.cc */,
+				29F2A0E81B342A7200EB0247 /* FCheck.cc */,
+				29F2A0E91B342A7200EB0247 /* FDet.cc */,
+				29F2A0EA1B342A7200EB0247 /* IO.cc */,
+				29F2A0EB1B342A7200EB0247 /* Patch.cc */,
+				29F2A0EC1B342A7200EB0247 /* PAW.cc */,
+				29F2A0ED1B342A7200EB0247 /* PDM.cc */,
+				29F2A0EE1B342A7200EB0247 /* Tracker.cc */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
 		BB4B014C10F69532006C3DED /* addons */ = {
 			isa = PBXGroup;
 			children = (
 				2977F3D71B332CE000735A7E /* ofxCv */,
+				29F2A0CA1B342A7100EB0247 /* ofxFaceTracker */,
 			);
 			name = addons;
 			sourceTree = "<group>";
@@ -452,19 +594,31 @@
 			files = (
 				2977F4071B332CE000735A7E /* Helpers.cpp in Sources */,
 				2977F40B1B332CE000735A7E /* Tracker.cpp in Sources */,
+				29F2A0F51B342A7200EB0247 /* FDet.cc in Sources */,
 				2977F4041B332CE000735A7E /* ContourFinder.cpp in Sources */,
 				2977F4061B332CE000735A7E /* Flow.cpp in Sources */,
+				29F2A0F81B342A7200EB0247 /* PAW.cc in Sources */,
 				2977F40D1B332CE000735A7E /* Wrappers.cpp in Sources */,
+				29F2A0F41B342A7200EB0247 /* FCheck.cc in Sources */,
 				2977F4011B332CE000735A7E /* ETF.cpp in Sources */,
 				2977F4021B332CE000735A7E /* fdog.cpp in Sources */,
 				2977F40C1B332CE000735A7E /* Utilities.cpp in Sources */,
+				29F2A0F61B342A7200EB0247 /* IO.cc in Sources */,
 				2977F4081B332CE000735A7E /* Kalman.cpp in Sources */,
+				29F2A0F91B342A7200EB0247 /* PDM.cc in Sources */,
+				29F2A0F71B342A7200EB0247 /* Patch.cc in Sources */,
 				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
+				29F2A0F31B342A7200EB0247 /* CLM.cc in Sources */,
+				29F2A0FA1B342A7200EB0247 /* Tracker.cc in Sources */,
+				29F2A0F01B342A7200EB0247 /* ExpressionClassifier.cpp in Sources */,
 				2977F40A1B332CE000735A7E /* RunningBackground.cpp in Sources */,
 				2977F4031B332CE000735A7E /* Calibration.cpp in Sources */,
 				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
 				2977F4051B332CE000735A7E /* Distance.cpp in Sources */,
+				29F2A0F21B342A7200EB0247 /* license.md in Sources */,
+				29F2A0F11B342A7200EB0247 /* ofxFaceTracker.cpp in Sources */,
 				2977F4091B332CE000735A7E /* ObjectFinder.cpp in Sources */,
+				29F2A0EF1B342A7200EB0247 /* Expression.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -623,7 +777,7 @@
 					/Users/gr4yscale/code/open_frameworks_0_8_4/addons/ofxOpenCv/libs/opencv/lib/osx,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)Debug";
-				USER_HEADER_SEARCH_PATHS = "../../../addons/ofxCv/libs/ofxCv/include/ ../../../addons/ofxCv/../ofxOpenCv/libs/opencv/include ../../../addons/ofxCv/libs/CLD/include/";
+				USER_HEADER_SEARCH_PATHS = "../../../addons/ofxCv/../ofxOpenCv/libs/opencv/include ../../../addons/ofxCv/libs/ofxCv/include/ ../../../addons/ofxCv/libs/CLD/include/ ../../../addons/ofxFaceTracker/libs/FaceTracker/include/";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -710,7 +864,7 @@
 					/Users/gr4yscale/code/open_frameworks_0_8_4/addons/ofxOpenCv/libs/opencv/lib/osx,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "../../../addons/ofxCv/libs/ofxCv/include/ ../../../addons/ofxCv/../ofxOpenCv/libs/opencv/include ../../../addons/ofxCv/libs/CLD/include/";
+				USER_HEADER_SEARCH_PATHS = "../../../addons/ofxCv/../ofxOpenCv/libs/opencv/include ../../../addons/ofxCv/libs/ofxCv/include/ ../../../addons/ofxCv/libs/CLD/include/ ../../../addons/ofxFaceTracker/libs/FaceTracker/include/";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
