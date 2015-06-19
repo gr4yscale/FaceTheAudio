@@ -1,5 +1,7 @@
 # Xcode
 
+*.app
+
 ## Build generated
 build/
 DerivedData
