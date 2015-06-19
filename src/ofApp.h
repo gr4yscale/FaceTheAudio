@@ -3,6 +3,7 @@
 #include "ofMain.h"
 #include "ofxCv.h"
 #include "ofxFaceTracker.h"
+#include "ofxAudioUnit.h"
 
 class ofApp : public ofBaseApp{
 
@@ -23,4 +24,9 @@ class ofApp : public ofBaseApp{
 
         ofVideoGrabber cam;
         ofxFaceTracker tracker;
+
+        ofxAudioUnitFilePlayer filePlayer;
+        ofxAudioUnitTap tap;
+        ofxAudioUnitOutput output;
+        ofPolyline waveform;
 };
