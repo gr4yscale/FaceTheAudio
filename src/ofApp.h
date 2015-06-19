@@ -28,5 +28,8 @@ class ofApp : public ofBaseApp{
         ofxAudioUnitFilePlayer filePlayer;
         ofxAudioUnitTap tap;
         ofxAudioUnitOutput output;
+        ofxAudioUnit variableSpeed;
+    
         ofPolyline waveform;
+        float speed;
 };

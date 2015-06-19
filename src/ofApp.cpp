@@ -5,10 +5,12 @@ using namespace ofxCv;
 //--------------------------------------------------------------
 void ofApp::setup(){
     ofSetVerticalSync(true);
+
     cam.initGrabber(640, 480);
     tracker.setup();
 
-    filePlayer.connectTo(tap).connectTo(output);
+    variableSpeed.setup(kAudioUnitType_FormatConverter, kAudioUnitSubType_Varispeed);
+    filePlayer.connectTo(variableSpeed).connectTo(tap).connectTo(output);
 
     output.start(); // Audio Units work on a "pull" basis, so initiate requesting the buffer be filled
 
@@ -21,9 +23,13 @@ void ofApp::update(){
     cam.update();
     if(cam.isFrameNew()) {
         tracker.update(toCv(cam));
-//        cout << tracker.getGesture(ofxFaceTracker::MOUTH_HEIGHT) << "\n";
+        float mouthHeight = tracker.getGesture(ofxFaceTracker::MOUTH_HEIGHT);
+        cout << mouthHeight << endl;
+        speed = ofMap(mouthHeight, 0, 6.0, 0.01, 2.0);
     }
 
+    AudioUnitSetParameter(variableSpeed, kVarispeedParam_PlaybackRate, kAudioUnitScope_Global, 0, speed, 0);
+    
     tap.getLeftWaveform(waveform, ofGetWidth(), ofGetHeight());
 }
 
