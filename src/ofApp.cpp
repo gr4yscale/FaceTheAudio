@@ -1,18 +1,28 @@
 #include "ofApp.h"
 
+using namespace ofxCv;
+
 //--------------------------------------------------------------
 void ofApp::setup(){
-    
+    ofSetVerticalSync(true);
+    cam.initGrabber(640, 480);
+    tracker.setup();
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
-
+    cam.update();
+    if(cam.isFrameNew()) {
+        tracker.update(toCv(cam));
+        cout << tracker.getGesture(ofxFaceTracker::MOUTH_HEIGHT) << "\n";
+    }
 }
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-
+    ofSetColor(255);
+    cam.draw(0, 0);
+    tracker.draw();
 }
 
 //--------------------------------------------------------------
